@@ -16,8 +16,8 @@ Type "help", "copyright", "credits" or "license" for more information.
 </pre>
 **OPTIONS:**
 <pre>
--i, --interactive      Keep STDIN opn even if not attached
--t, --tty              Allocate a pseudo-TTY
+-i, --interactive      Keep STDIN opn even if not attached (It gets the `docker run` STDIN and executes it into the container)
+-t, --tty              Allocate a pseudo-TTY (This option is optional, it only create a TTY)
 --rm                   Automatically remove the container when it exits
 --name string          Assign a name to the container
 -v, --volume list      Bind mount a volume
