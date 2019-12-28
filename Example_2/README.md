@@ -19,3 +19,16 @@
 python:3                    Image python:3
 python script.py            Run command python with argument script.py
 </pre>
+
+<br/>
+You can also create the following script:
+<pre>
+#!/bin/sh
+# cpython script (container python)
+
+docker run -it --rm --name my-running-script -v "$PWD":/usr/src/app -w /usr/src/app python:3 python $1
+</pre>
+
+And change the permisions as following:
+`chmod u+x cpython`<br/>
+Finally execute ./cpython script.py
