@@ -35,8 +35,8 @@ For more examples and ideas, visit:
 
 *_output:_*<br/>
 <pre>
->CONTAINERID        IMAGE               COMMAND             CREATED             STATUS                      PORTS               NAMES<br/>
->2bf52987cbec        hello-world         "/hello"            10 minutes ago      Exited (0) 10 minutes ago                       agitated_solomon
+CONTAINERID        IMAGE               COMMAND             CREATED             STATUS                      PORTS               NAMES
+2bf52987cbec        hello-world         "/hello"            10 minutes ago      Exited (0) 10 minutes ago                       agitated_solomon
 </pre>
 
 *Delete hello-world container*<br/>
