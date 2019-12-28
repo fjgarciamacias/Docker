@@ -1,6 +1,19 @@
 # Simple python docker script.
 *Run container*<br/>
-`docker run -it --rm --name my-running-script -v "$PWD":/usr/src/app -w /usr/src/app python:3 python script.py`<br/><br/>
+`docker run -it --rm --name my-running-script -v "$PWD":/usr/src/app -w /usr/src/app python:3 python script.py`<br/>
+**output:**
+<pre>
+Simple python script
+</pre>
+*Python interactive with docker*<br/>
+`docker run -it --rm python:3`<br/>
+**output:**
+<pre>
+Python 3.8.1 (default, Dec 20 2019, 21:56:21) 
+[GCC 8.3.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> _
+</pre>
 **OPTIONS:**
 <pre>
 -i, --interactive      Keep STDIN opn even if not attached
