@@ -35,7 +35,7 @@ For more examples and ideas, visit:
 *List all containers*<br/>
 `docker ps -a`
 
-*_output:_*<br/>
+*_output:_*
 <pre>
 CONTAINERID         IMAGE               COMMAND             CREATED             STATUS                      PORTS               NAMES
 2bf52987cbec        hello-world         "/hello"            10 minutes ago      Exited (0) 10 minutes ago                       agitated_solomon
@@ -44,13 +44,17 @@ CONTAINERID         IMAGE               COMMAND             CREATED             
 *Delete hello-world container*<br/>
 `docker rm agitated_solomon`
 
-*_output:_*<br/>
+*_output:_*
+<pre>
 agitated_solomon
+</pre>
 
 *Delete hello-world image*<br/>
 `docker rmi hello-world`
 
-*_output_:*<br/>
-Untagged: hello-world@sha256:4fe721ccc2e8dc7362278a29dc660d833570ec2682f4e4194f4ee23e415e1064<br/>
-Deleted: sha256:fce289e99eb9bca977dae136fbe2a82b6b7d4c372474c9235adc1741675f587e<br/>
-Deleted: sha256:af0b15c8625bb1938f1d7b17081031f649fd14e6b233688eea3c5483994a66a3<br/>
+*_output_:*
+<pre>
+Untagged: hello-world@sha256:4fe721ccc2e8dc7362278a29dc660d833570ec2682f4e4194f4ee23e415e1064
+Deleted: sha256:fce289e99eb9bca977dae136fbe2a82b6b7d4c372474c9235adc1741675f587e
+Deleted: sha256:af0b15c8625bb1938f1d7b17081031f649fd14e6b233688eea3c5483994a66a3
+</pre>
