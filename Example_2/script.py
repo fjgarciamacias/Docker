@@ -1,1 +1,0 @@
-print('Simple python script')
