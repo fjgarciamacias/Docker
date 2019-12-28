@@ -1,5 +1,5 @@
 # Docker Hello World
-*Run container*
+*Run container*<br/>
 `docker run hello-world`
 
 *_output:_*
@@ -32,7 +32,7 @@ For more examples and ideas, visit:
  https://docs.docker.com/get-started/
  </pre>
 
-*List all containers*
+*List all containers*<br/>
 `docker ps -a`
 
 *_output:_*
@@ -41,7 +41,7 @@ CONTAINERID         IMAGE               COMMAND             CREATED             
 2bf52987cbec        hello-world         "/hello"            10 minutes ago      Exited (0) 10 minutes ago                       agitated_solomon
 </pre>
 
-*Delete hello-world container*
+*Delete hello-world container*<br/>
 `docker rm agitated_solomon`
 
 *_output:_*
@@ -49,7 +49,7 @@ CONTAINERID         IMAGE               COMMAND             CREATED             
 agitated_solomon
 </pre>
 
-*Delete hello-world image*
+*Delete hello-world image*<br/>
 `docker rmi hello-world`
 
 *_output_:*
