@@ -1,10 +1,8 @@
 # Docker Hello World
-*Run container* 
-
+*Run container* <br/>
 `docker run hello-world`
 
-*_output:_*
-
+*_output:_*<br/>
 Unable to find image 'hello-world:latest' locally
 latest: Pulling from library/hello-world
 1b930d010525: Pull complete 
@@ -36,25 +34,20 @@ For more examples and ideas, visit:
 
 `docker ps -a`
 
-*_output:_*
-
+*_output:_*<br/>
 CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS                      PORTS               NAMES
 2bf52987cbec        hello-world         "/hello"            10 minutes ago      Exited (0) 10 minutes ago                       agitated_solomon
 
-*Delete hello-world container*
-
+*Delete hello-world container*<br/>
 `docker rm agitated_solomon`
 
-*_output:_*
-
+*_output:_*<br/>
 agitated_solomon
 
-*Delete hello-world image*
-
+*Delete hello-world image*<br/>
 `docker rmi hello-world`
 
-*_output_:*
-
+*_output_:*<br/>
 Untagged: hello-world@sha256:4fe721ccc2e8dc7362278a29dc660d833570ec2682f4e4194f4ee23e415e1064
 Deleted: sha256:fce289e99eb9bca977dae136fbe2a82b6b7d4c372474c9235adc1741675f587e
 Deleted: sha256:af0b15c8625bb1938f1d7b17081031f649fd14e6b233688eea3c5483994a66a3
