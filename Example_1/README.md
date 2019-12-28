@@ -34,8 +34,8 @@ For more examples and ideas, visit:
 `docker ps -a`
 
 *_output:_*<br/>
-CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS                      PORTS               NAMES<br/>
-2bf52987cbec        hello-world         "/hello"            10 minutes ago      Exited (0) 10 minutes ago                       agitated_solomon
+>CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS                      PORTS               NAMES<br/>
+>2bf52987cbec        hello-world         "/hello"            10 minutes ago      Exited (0) 10 minutes ago                       agitated_solomon
 
 *Delete hello-world container*<br/>
 `docker rm agitated_solomon`
