@@ -30,8 +30,7 @@ Share images, automate workflows, and more with a free Docker ID:
 For more examples and ideas, visit:
  https://docs.docker.com/get-started/
 
-*List all containers*
-
+*List all containers*<br/>
 `docker ps -a`
 
 *_output:_*<br/>
