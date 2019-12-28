@@ -20,7 +20,6 @@ python:3                    Image python:3
 python script.py            Run command python with argument script.py
 </pre>
 
-<br/>
 **Shell Script:**
 <br/>
 You can also create the following script:
