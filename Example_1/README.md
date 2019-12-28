@@ -2,7 +2,7 @@
 *Run container* <br/>
 `docker run hello-world`
 
-*_output:_*<br/>
+*_output:_*
 <pre>
 Unable to find image 'hello-world:latest' locally
 latest: Pulling from library/hello-world
