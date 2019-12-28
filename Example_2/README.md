@@ -21,6 +21,8 @@ python script.py            Run command python with argument script.py
 </pre>
 
 <br/>
+**Shell Script:**
+<br/>
 You can also create the following script:
 <pre>
 #!/bin/sh
@@ -30,5 +32,5 @@ docker run -it --rm --name my-running-script -v "$PWD":/usr/src/app -w /usr/src/
 </pre>
 
 And change the permisions as following:
-`chmod u+x cpython`<br/>
-Finally execute ./cpython script.py
+`chmod u+x cpython`<br/><br/>
+Finally execute `./cpython script.py`
