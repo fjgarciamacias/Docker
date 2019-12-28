@@ -1,0 +1,4 @@
+#!/bin/sh
+# cpython script (container python)
+
+docker run -it --rm --name my-running-script -v "$PWD":/usr/src/app -w /usr/src/app python:3 python $1
