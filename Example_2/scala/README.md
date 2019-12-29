@@ -59,10 +59,10 @@ scala> _
 **ARGUMENTS:**
 <pre>
 --name my-running-script    The name of the container
--v "$PWD":/usr/src/app    Bind current directory to /usr/src/app
--w /usr/src/app           Working directory /usr/src/app
-scala:2.13.1                    Image scala:2.13.1
-scala script.scala            Run command python with argument script.py
+-v "$PWD":/usr/src/app      Bind current directory to /usr/src/app
+-w /usr/src/app             Working directory /usr/src/app
+scala:2.13.1                Image scala:2.13.1
+scala script.scala          Run command python with argument script.py
 </pre>
 
 <br/>
