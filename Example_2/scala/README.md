@@ -32,19 +32,19 @@ Successfully tagged scala:2.13.1
 </pre>
 
 *Run container*<br/>
-`docker run -it --rm --name my-running-script -v "$PWD":/usr/src/app -w /usr/src/app python:3 python script.py`<br/>
+`docker run -it --rm --name my-running-script -v "$PWD":/usr/src/app -w /usr/src/app scala:2.13.1 scala script.scala`<br/>
 **output:**
 <pre>
-Simple python script
+Simple scala script
 </pre>
-*Python interactive with docker*<br/>
-`docker run -it --rm python:3`<br/>
+*Scala interactive with docker*<br/>
+`docker run -it --rm scala:2.13.1`<br/>
 **output:**
 <pre>
-Python 3.8.1 (default, Dec 20 2019, 21:56:21) 
-[GCC 8.3.0] on linux
-Type "help", "copyright", "credits" or "license" for more information.
->>> _
+Welcome to Scala 2.13.1 (OpenJDK 64-Bit Server VM, Java 1.8.0_232).
+Type in expressions for evaluation. Or try :help.
+
+scala> _
 </pre>
 **OPTIONS:**
 <pre>
@@ -61,8 +61,8 @@ Type "help", "copyright", "credits" or "license" for more information.
 --name my-running-script    The name of the container
 -v "$PWD":/usr/src/app    Bind current directory to /usr/src/app
 -w /usr/src/app           Working directory /usr/src/app
-python:3                    Image python:3
-python script.py            Run command python with argument script.py
+scala:2.13.1                    Image scala:2.13.1
+scala script.scala            Run command python with argument script.py
 </pre>
 
 <br/>
@@ -75,5 +75,5 @@ docker run -it --rm --name my-running-script -v "$PWD":/usr/src/app -w /usr/src/
 </pre>
 
 And change the permisions as following:
-`chmod u+x cpython`<br/>
-Finally execute ./cpython script.py
+`chmod u+x cscala`<br/>
+Finally execute ./cscala script.scala
