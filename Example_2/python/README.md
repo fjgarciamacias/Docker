@@ -27,8 +27,8 @@ Type "help", "copyright", "credits" or "license" for more information.
 **ARGUMENTS:**
 <pre>
 --name my-running-script    The name of the container
--v "$PWD":/usr/src/app    Bind current directory to /usr/src/app
--w /usr/src/app           Working directory /usr/src/app
+-v "$PWD":/usr/src/app      Bind current directory to /usr/src/app
+-w /usr/src/app             Working directory /usr/src/app
 python:3                    Image python:3
 python script.py            Run command python with argument script.py
 </pre>
