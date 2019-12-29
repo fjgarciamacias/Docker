@@ -17,7 +17,7 @@ RUN mkdir $SCALA_HOME
 RUN curl https://downloads.lightbend.com/scala/2.13.1/scala-2.13.1.tgz -o $SCALA_HOME/scala-2.13.1.tgz 
 
 # Extracts the binaries inside SCALA_HOME
-RUN tar --strip-components=1 xvzf $SCALA_HOME/scala-2.13.1.tgz -C $SCALA_HOME; rm $SCALA_HOME/scala-2.13.1.tgz
+RUN tar --strip-components=1 -xvzf $SCALA_HOME/scala-2.13.1.tgz -C $SCALA_HOME; rm $SCALA_HOME/scala-2.13.1.tgz
 
 # Use scala command as default docker command
-CMD scala
+#CMD scala
