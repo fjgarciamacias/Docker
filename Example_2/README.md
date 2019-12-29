@@ -10,3 +10,4 @@ This repository contains a wiki with my docker notes, and alsoprovides de follow
 * elixir
 * erlang
 * ruby
+* pearl
