@@ -1,5 +1,5 @@
-FROM openjdk:8
 # Creates image from OpenJDK 8
+FROM openjdk:8
 
 # Use this directory as a current directory
 WORKDIR /usr/src/app
