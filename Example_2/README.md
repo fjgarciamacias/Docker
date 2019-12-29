@@ -2,12 +2,14 @@
 
 This repository contains a wiki with my docker notes, and alsoprovides de followig exmaples:
 * python
-* java
 * scala
 * go
-* C
-* rust
-* elixir
-* erlang
 * ruby
 * pearl
+* rust
+* erlang
+* elixir
+* java
+* C
+
+
