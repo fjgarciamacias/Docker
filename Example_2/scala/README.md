@@ -69,7 +69,7 @@ scala script.scala            Run command python with argument script.py
 You can also create the following script:
 <pre>
 #!/bin/sh
-# cscala script (container python)
+# cscala script (container scala)
 
 docker run -it --rm --name my-running-script -v "$PWD":/usr/src/app -w /usr/src/app scala:2.13.1 scala $1
 </pre>
