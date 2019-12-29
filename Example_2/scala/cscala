@@ -1,0 +1,4 @@
+#!/bin/sh
+# cscala script (container scala)
+
+docker run -it --rm --name my-running-script -v "$PWD":/usr/src/app -w /usr/src/app scala:2.13.1 scala $1
