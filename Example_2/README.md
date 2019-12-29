@@ -3,13 +3,3 @@
 This repository contains a wiki with my docker notes, and alsoprovides de followig exmaples:
 * python
 * scala
-* go
-* ruby
-* pearl
-* rust
-* erlang
-* elixir
-* java
-* C
-
-
